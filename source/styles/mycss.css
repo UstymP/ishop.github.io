@@ -1,0 +1,100 @@
+
+body {
+  font-family: Times, serif;
+  background: linear-gradient(0deg, #021702 3%, #248302 40%, #061801 88%);
+}
+
+p {
+  color: aquamarine;
+}
+
+.nav-link {
+  color: rgb(182, 237, 218);
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(141, 143, 141);
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.navbar-toggler {
+  background-color: rgb(141, 143, 141);
+}
+
+.sidebar,
+.btn-outline-success {
+  color: aquamarine;
+  background: linear-gradient(90deg, #021702 3%, #248302 40%, #061801 88%);
+}
+
+.sidebar img {
+  width: 350px;
+}
+
+.card {
+  background: linear-gradient(0deg, #021702 3%, #248302 40%, #061801 88%);
+  color: aquamarine;
+}
+
+.card a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+.footer-text {
+  color: aquamarine;
+  margin: auto auto;
+}
+
+footer {
+  background: linear-gradient(0deg, #021702 3%, #248302 40%, #1f6705 88%);
+  color: aquamarine;
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  color: aquamarine;
+}
+
+.call-anim {
+  animation: myAnim1 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim1 {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPU5PIfH72iAjbcQm8xFAXiyP-8Tov_rKR0ckuqwJC4w&s" alt=""> */
